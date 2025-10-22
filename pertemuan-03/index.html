@@ -64,10 +64,11 @@
        }
 
        #contact h2 {
-        color: #333;
-        border-bottom: 2px solid #999;
-        padding-bottom: 15px;
-        text-align: center;
+        color: #003366;
+        border-bottom: 2px solid #003366;
+        padding-bottom: 6px;
+        margin-top: 0;
+        margin-bottom: 16px;
        }
 
        #contact label>span {
@@ -124,6 +125,21 @@
        @media (max-width: 600px) {
         #contact {
             padding: 15px;
+        }
+
+        #contact label {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        #contact label>span {
+            text-align: left;
+            padding-right: 0;
+            margin-bottom: 2px;
+        }
+
+        #contact input, #contact input, #contact textarea {
+            width: 100%;
         }
 
         #contact button {
