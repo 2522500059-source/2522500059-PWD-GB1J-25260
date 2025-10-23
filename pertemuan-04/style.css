@@ -9,15 +9,36 @@
     color: #333;
     line-height: 1.5;
    }
+
+   header {
+    background: #033366;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+   }
+
+   header ul {
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0%;
+    margin: 10px 0 0;
+   }
+
+   header li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 12px;
+   }
    
-   #about 
-     background-color: #ffffff;
+   #about {background-color: #ffffff;
       border-radius: 10px;
       padding: 20px;
       max-width: 700px;
       margin: 20px;
       box-shadow: 0 2px 5px rgba(11, 10, 10, 0.1);
-     }
+      }
+     
 
      #about h2 {
         color: #003366;
