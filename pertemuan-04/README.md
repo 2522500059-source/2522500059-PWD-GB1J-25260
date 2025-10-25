@@ -9,3 +9,4 @@ Hari ini,Rabu 15 Oktober 2025 , saya mempelajari:
  </ol>
 "styling header"
 "styling navigasi"
+"styling header mode mobile"
