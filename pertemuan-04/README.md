@@ -10,3 +10,4 @@ Hari ini,Rabu 15 Oktober 2025 , saya mempelajari:
 "styling header"
 "styling navigasi"
 "styling header mode mobile"
+"styling navigasi mode mobile"
