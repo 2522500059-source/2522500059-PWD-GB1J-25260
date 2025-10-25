@@ -9,4 +9,5 @@ Hari Ini,kamis 23 oktober 2025 , saya mempelajari:
 <li>class menu-toggle</li>
 <li>class menu-toggle mobile</li>
 <li>styling nav mobile</li>
+<li>styking nav menu mobile</li>
 </ol>
