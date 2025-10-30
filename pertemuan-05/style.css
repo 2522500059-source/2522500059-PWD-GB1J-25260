@@ -217,19 +217,15 @@
         border-bottom: 1px solid #e6e6e6;
        }
 
-       #contact input[type="text"],
-       #contact input[type="email"],
-       #contact textarea {
-        width: 100%;
-        padding: 8px 10px;
-        border: 1px solid #aaa;
-        border-radius: 6px;
-        font-size: 14px;
-       }
-
-       #contact textarea {
-        resize: vertical;
-        min-height: 80px;
+       #contact input, #contact textarea {
+           flex: 1;
+           border: 1px solid #ccc;
+           border-radius: 6px;
+           padding: 8px;
+           color: #000;
+           font-weight: normal;
+           margin: 0;
+           box-sizing: border-box;
        }
 
        #contact button {
