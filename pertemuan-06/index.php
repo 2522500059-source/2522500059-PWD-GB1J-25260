@@ -67,7 +67,6 @@
         $NAMAADIK= "ADIK LAKI2= M.RAIFAN PRAYOGA DAN ADIK PR=FARZANA HUMAIRA ";
         $Namaadik = "";
 
- 
 
     ?>
         <h2>tentang saya &#128522</h2>
@@ -135,7 +134,8 @@
            ?>
         </p>
     </section>
-    <section id="contact">
+    <section id="IPK">
+        
       <h2>kontak kami</h2>
       <form action="" method="GET">
         <label for="txtNama"><span>Nama:</span>
