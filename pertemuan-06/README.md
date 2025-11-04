@@ -12,8 +12,8 @@ Hari ini Kamis, 30 Oktober 2025 Saya mempelajari :
 <li>membuat scrip php tanggal lahir</li>
 <li>membuat scrip php hobi</li>
 <li>membuat scrip php pasangan</li>
-<li>nfe</li>
-<li>nfe</li>
+<li>membuat scrip php pekerjaan</li>
+<li>membuat scrip php namaortu</li>
 <li>nfe</li>
 
 

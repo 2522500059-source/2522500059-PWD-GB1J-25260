@@ -55,6 +55,9 @@
         $PEKERJAAN = "PHL POLDA";
         $Pekerjaan = "";
 
+        $namaortu = "Bapak Asri dan Ibuk Pidiatun";
+        $NAMAORTU = "BAPAK YADI DAN IBU MAYA LISTIYANA";
+        $Namaortu = "";
 
 
 
@@ -100,8 +103,18 @@
                   echo $pasangan;
              ?>
             </p>
-        <p><strong>PEKERJAAN:</strong> PHL Polda</p>
-        <p><strong>NAMA ORANG TUA:</strong>Bapak: Yadi Dan Ibu: Maya LIstiyana</p>
+        <p>
+            <strong>PEKERJAAN:</strong>
+            <?php
+                   echo $Pekerjaan;
+            ?>
+            </p>
+        <p>
+            <strong>NAMA ORANG TUA:</strong>
+            <?php
+                    echo $namaortu;
+            ?>
+            </p>
         <p><strong>NAMA ADIK:</strong>Nama Adik Laki-Laki: M. Raifan Prayoga Dan Nama Adik Perempuan: Farzana Humairah</p>
     </section>
     <section id="contact">
