@@ -18,7 +18,7 @@ Hari ini Kamis, 30 Oktober 2025 Saya mempelajari :
 <li>mmebuat scrip php namaadik</li>
 <li>membuat section id IPK</li>
 <li>melanjutkan latihan</li>
-<li>wh</li>
+<li>membuat variabel matkul</li>
 <li>wh</li>
 <li>wh</li>
 
