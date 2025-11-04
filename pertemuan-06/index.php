@@ -47,9 +47,13 @@
         $HOBI = "SUKA MEMBACA DAN SUKA OLAHRAGA";
         $Hobi = "";
 
-        
+        $pasangan = "tidak punya";
+        $PASANGAN = "BELUM ADA";
+        $Pasangan = "";
 
 
+
+ 
 
     ?>
         <h2>tentang saya &#128522</h2>
@@ -78,8 +82,19 @@
                  echo $tanggallahir;
              ?>
             </p>
-        <p><strong>HOBI:</strong> suka membaca, dan olahraga &#127926</p>
-        <p><strong>PASANGAN:</strong> belum punya</p>
+        <p> 
+            <strong>HOBI:</strong>
+            <?php
+                  echo $hobi;
+            ?>
+            </p>
+
+        <p>
+            <strong>PASANGAN:</strong>
+             <?php
+                  echo $pasangan;
+             ?>
+            </p>
         <p><strong>PEKERJAAN:</strong> PHL Polda</p>
         <p><strong>NAMA ORANG TUA:</strong>Bapak: Yadi Dan Ibu: Maya LIstiyana</p>
         <p><strong>NAMA ADIK:</strong>Nama Adik Laki-Laki: M. Raifan Prayoga Dan Nama Adik Perempuan: Farzana Humairah</p>

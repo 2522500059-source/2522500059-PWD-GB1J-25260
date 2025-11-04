@@ -11,7 +11,7 @@ Hari ini Kamis, 30 Oktober 2025 Saya mempelajari :
 <li>membuat echo tempat lahir</li>
 <li>membuat echo tanggal lahir</li>
 <li>membuat echo hobi</li>
-<li>nfe</li>
+<li>membuat echo pasangan</li>
 <li>nfe</li>
 
 
