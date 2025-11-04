@@ -6,6 +6,6 @@ Nama: Annisa
 Hari ini Kamis, 30 Oktober 2025 Saya mempelajari :
 <ol>
 <li>Latihan hello world di helo.php</li>
-<li>ksfks</li>
+<li>ks</li>
 <li>ksfks</li>
 </ol>
