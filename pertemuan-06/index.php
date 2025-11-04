@@ -63,6 +63,9 @@
         $NAMAKAKAK = "TIDAK PUNYA";
         $Namakakak = "";
 
+        $namaadik = "tidak punya";
+        $NAMAADIK= "ADIK LAKI2= M.RAIFAN PRAYOGA DAN ADIK PR=FARZANA HUMAIRA ";
+        $Namaadik = "";
 
  
 
@@ -125,7 +128,12 @@
             ?>
             </p>
 
-        <p><strong>NAMA ADIK:</strong>Nama Adik Laki-Laki: M. Raifan Prayoga Dan Nama Adik Perempuan: Farzana Humairah</p>
+        <p>
+            <strong>NAMA ADIK:</strong>
+           <?php
+                   echo $namaadik;
+           ?>
+        </p>
     </section>
     <section id="contact">
       <h2>kontak kami</h2>
