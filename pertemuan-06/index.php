@@ -43,6 +43,13 @@
         $TANGGALLAHIR = "07 JULI 2005";
         $Tanggallahir = "";
 
+        $hobi = "desain";
+        $HOBI = "SUKA MEMBACA DAN SUKA OLAHRAGA";
+        $Hobi = "";
+
+        
+
+
 
     ?>
         <h2>tentang saya &#128522</h2>
@@ -67,7 +74,9 @@
             </p>
         <p>
             <strong>TANGGAL LAHIR:</strong>
-             07 july 2005
+             <?php
+                 echo $tanggallahir;
+             ?>
             </p>
         <p><strong>HOBI:</strong> suka membaca, dan olahraga &#127926</p>
         <p><strong>PASANGAN:</strong> belum punya</p>

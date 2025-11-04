@@ -9,7 +9,10 @@ Hari ini Kamis, 30 Oktober 2025 Saya mempelajari :
 <li>membuat echo nim</li>
 <li>membuat echo nama</li>
 <li>membuat echo tempat lahir</li>
+<li>membuat echo tanggal lahir</li>
+<li>membuat echo hobi</li>
 <li>nfe</li>
 <li>nfe</li>
+
 
 </ol>
