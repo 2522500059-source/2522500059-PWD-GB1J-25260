@@ -6,6 +6,10 @@ Nama: Annisa
 Hari ini Kamis, 30 Oktober 2025 Saya mempelajari :
 <ol>
 <li>Latihan hello world di helo.php</li>
-<li>ks</li>
-<li>ksfks</li>
+<li>membuat echo nim</li>
+<li>membuat echo nama</li>
+<li>membuat echo tempat lahir</li>
+<li>nfe</li>
+<li>nfe</li>
+
 </ol>
