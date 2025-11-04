@@ -59,6 +59,9 @@
         $NAMAORTU = "BAPAK YADI DAN IBU MAYA LISTIYANA";
         $Namaortu = "";
 
+        $namakakak = "nurita evitarina";
+        $NAMAKAKAK = "TIDAK PUNYA";
+        $Namakakak = "";
 
 
  
@@ -115,6 +118,13 @@
                     echo $namaortu;
             ?>
             </p>
+        <p>
+            <strong>NAMA KAKAK:</strong>
+            <?php
+                    echo $namakakak;
+            ?>
+            </p>
+
         <p><strong>NAMA ADIK:</strong>Nama Adik Laki-Laki: M. Raifan Prayoga Dan Nama Adik Perempuan: Farzana Humairah</p>
     </section>
     <section id="contact">

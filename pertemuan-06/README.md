@@ -14,6 +14,7 @@ Hari ini Kamis, 30 Oktober 2025 Saya mempelajari :
 <li>membuat scrip php pasangan</li>
 <li>membuat scrip php pekerjaan</li>
 <li>membuat scrip php namaortu</li>
+<li>membuat scrip php namakakak</li>
 <li>nfe</li>
 
 
