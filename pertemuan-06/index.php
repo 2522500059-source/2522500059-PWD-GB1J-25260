@@ -47,9 +47,14 @@
         $HOBI = "SUKA MEMBACA DAN SUKA OLAHRAGA";
         $Hobi = "";
 
-        $pasangan = "tidak punya";
+        $pasangan = "sudah ada";
         $PASANGAN = "BELUM ADA";
         $Pasangan = "";
+
+        $pekerjaan = "desainer";
+        $PEKERJAAN = "PHL POLDA";
+        $Pekerjaan = "";
+
 
 
 
