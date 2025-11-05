@@ -21,7 +21,7 @@ Hari ini Kamis, 30 Oktober 2025 Saya mempelajari :
 <li>membuat variabel matkul</li>
 <li>mengubah variabel matkul</li>
 <li>membuat variabel nilai</li>
-<li>wh</li>
+<li>menambahkan perintah lulus dan gagal kalau semisalnya ipk lebih/kurang dari 1.00</li>
 <li>wh</li>
 
 <li>wh</li>
