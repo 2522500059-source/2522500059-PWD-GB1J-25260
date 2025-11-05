@@ -31,7 +31,7 @@
         $NIM = "2522500059";
         $Nim = "";
 
-        $nama = "Oktaviana;
+        $nama = "Oktaviana";
         $NAMA = "ANNISA";
         $Nama = "";
 

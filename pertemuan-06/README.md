@@ -29,5 +29,6 @@ Hari ini Kamis, 30 Oktober 2025 Saya mempelajari :
 <li>membuat styling css section id ipk</li>
 <li>mengubah indentitas skrip php</li>
 <li>mengubah indentitas adik php</li>
-<li>menambahkan total bobot ,total sks,dan ipk<li>
+<li>menambahkan total bobot ,total sks,dan ipk</li>
+<li>Memperbaiki kodingan yang salah</li>
 </ol>
