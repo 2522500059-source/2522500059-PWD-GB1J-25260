@@ -6,16 +6,16 @@ Nama: Annisa<br>
 Hari ini Kamis, 30 Oktober 2025 Saya mempelajari :
 <ol>
 <li>Latihan hello world di helo.php</li>
-<li>membuat scrip php nim</li>
-<li>membuat scrip php nama</li>
-<li>membuat scrip php tempat lahir</li>
-<li>membuat scrip php tanggal lahir</li>
-<li>membuat scrip php hobi</li>
-<li>membuat scrip php pasangan</li>
-<li>membuat scrip php pekerjaan</li>
-<li>membuat scrip php namaortu</li>
-<li>membuat scrip php namakakak</li>
-<li>mmebuat scrip php namaadik</li>
+<li>membuat skrip php nim</li>
+<li>membuat skrip php nama</li>
+<li>membuat skrip php tempat lahir</li>
+<li>membuat skrip php tanggal lahir</li>
+<li>membuat skrip php hobi</li>
+<li>membuat skrip php pasangan</li>
+<li>membuat skrip php pekerjaan</li>
+<li>membuat skrip php namaortu</li>
+<li>membuat skrip php namakakak</li>
+<li>mmebuat skrip php namaadik</li>
 <li>membuat section id IPK</li>
 <li>melanjutkan latihan</li>
 <li>membuat variabel matkul</li>
