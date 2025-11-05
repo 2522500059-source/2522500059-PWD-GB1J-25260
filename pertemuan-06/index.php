@@ -536,7 +536,12 @@
         <p><strong>Bobot:</strong> <?php echo $bobot5; ?></p>
         <p><strong>Status:</strong> <?php echo $status5; ?></p>
         
-        
+        <hr>
+        <h3>Rekap Nilai</h3>
+        <p><strong>Total Bobot:</strong> <?php echo $totalbobot; ?></p>
+        <p><strong>Total SKS:</strong> <?php echo $totalsks; ?></p>
+        <p><strong>IPK:</strong> <?php echo number_format($ipk, 2); ?></p>
+
     
 
       <h2>kontak kami</h2>

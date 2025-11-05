@@ -26,7 +26,7 @@ Hari ini Kamis, 30 Oktober 2025 Saya mempelajari :
 <li>menambahkan variabel nilai bobot</li>
 <li>membuat H3 Matkul 1</li>
 <li>mencopy H3 matkul 1 dan merubah isinya aja</li>
-<li>wh</li>
+<li>membuat styling css section id ipk</li>
 <li>wh</li>
 
 
