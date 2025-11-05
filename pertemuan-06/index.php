@@ -468,7 +468,7 @@
         $ipk= $totalbobot/$totalsks;
         ?>
 
-        <h2>Nilai Saye</h2>
+        <h2>Nilai Saya</h2>
  
         <h3>Matakuliah 1</h3>
         <p><strong>Nama Matkul1:</strong> <?php echo $namamatkul1;?></p>
