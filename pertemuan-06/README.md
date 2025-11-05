@@ -28,6 +28,6 @@ Hari ini Kamis, 30 Oktober 2025 Saya mempelajari :
 <li>mencopy H3 matkul 1 dan merubah isinya aja</li>
 <li>membuat styling css section id ipk</li>
 <li>mengubah indentitas skrip php</li>
-
+<li>mengubah indentitas adik php</li>
 
 </ol>
