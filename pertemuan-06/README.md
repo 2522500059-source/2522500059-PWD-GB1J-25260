@@ -23,7 +23,7 @@ Hari ini Kamis, 30 Oktober 2025 Saya mempelajari :
 <li>membuat variabel nilai</li>
 <li>menambahkan perintah lulus dan gagal kalau semisalnya ipk lebih/kurang dari 1.00</li>
 <li>menambahkan variabel bobot</li>
-<li>wh</li>
+<li>menambahkan variabel nilai bobot</li>
 <li>wh</li>
 <li>wh</li>
 <li>wh</li>
