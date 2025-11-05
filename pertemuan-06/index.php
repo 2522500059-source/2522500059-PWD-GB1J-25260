@@ -136,14 +136,14 @@
     </section>
     <section id="IPK">
         <?php 
-            $namamatkul1='Aplikasi Perkantoran';
-        $sksmatkul1='3';
+            $namamatkul1='Algoritma dan Stuktur Data';
+        $sksmatkul1='4';
         $nilaihadir1='90';
         $nilaitugas1='60';
         $nilaiuts1='80';
         $nilaiuas1='70';
-            $namamatkul2='Logika Informatika';
-        $sksmatkul2='3';
+            $namamatkul2='Agama';
+        $sksmatkul2='2';
         $nilaihadir2='70';
         $nilaitugas2='50';
         $nilaiuts2='60';
@@ -156,16 +156,16 @@
         $nilaiuas3='90';
             $namamatkul4='Pengantar Teknologi';
         $sksmatkul4='3';
-        $nilaihadir4='90';
+        $nilaihadir4='100';
         $nilaitugas4='90';
-        $nilaiuts4='90';
-        $nilaiuas4='90';
+        $nilaiuts4='75';
+        $nilaiuas4='80';
          $namamatkul5='Pemrograman Web Dasar';
         $sksmatkul5='3';
-        $nilaihadir5='80';
+        $nilaihadir5='69';
         $nilaitugas5='80';
-        $nilaiuts5='80';
-        $nilaiuas5='80';
+        $nilaiuts5='90';
+        $nilaiuas5='100';
 
       <h2>kontak kami</h2>
       <form action="" method="GET">

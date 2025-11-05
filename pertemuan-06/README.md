@@ -19,7 +19,7 @@ Hari ini Kamis, 30 Oktober 2025 Saya mempelajari :
 <li>membuat section id IPK</li>
 <li>melanjutkan latihan</li>
 <li>membuat variabel matkul</li>
-<li>wh</li>
+<li>mengubah variabel matkul</li>
 <li>wh</li>
 
 </ol>
