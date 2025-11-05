@@ -1,7 +1,7 @@
 # pertemuan-06
 
-NIM: 2522500059
-Nama: Annisa
+NIM: 2522500059<br>
+Nama: Annisa<br>
 
 Hari ini Kamis, 30 Oktober 2025 Saya mempelajari :
 <ol>
