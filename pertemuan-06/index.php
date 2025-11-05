@@ -483,6 +483,62 @@
         <p><strong>Bobot:</strong> <?php echo $bobot1; ?></p>
         <p><strong>Status:</strong> <?php echo $status1; ?></p>
 
+
+         <h3>Matakuliah 2</h3>
+        <p><strong>Nama Matkul2:</strong> <?php echo $namamatkul2; ?></p>
+        <p><strong>SKS:</strong> <?php echo $sksmatkul2; ?></p>
+        <p><strong>Nilai Hadir:</strong> <?php echo $nilaihadir2; ?></p>
+        <p><strong>Tugas:</strong> <?php echo $nilaitugas2; ?></p>
+        <p><strong>UTS:</strong> <?php echo $nilaiuts2; ?></p>
+        <p><strong>UAS:</strong> <?php echo $nilaiuas2; ?></p>
+        <p><strong>Nilai Akhir:</strong> <?php echo $nilaiAkhir2; ?></p>
+        <p><strong>Grade:</strong> <?php echo $grade2; ?></p>
+        <p><strong>Angka Mutu:</strong> <?php echo $mutu2; ?></p>
+        <p><strong>Bobot:</strong> <?php echo $bobot2; ?></p>
+        <p><strong>Status:</strong> <?php echo $status2; ?></p>
+
+        <h3>Matakuliah 3</h3>
+        <p><strong>Nama Matkul3:</strong> <?php echo $namamatkul3; ?></p>
+        <p><strong>SKS:</strong> <?php echo $sksmatkul3; ?></p>
+        <p><strong>Nilai Hadir:</strong> <?php echo $nilaihadir3; ?></p>
+        <p><strong>Tugas:</strong> <?php echo $nilaitugas3; ?></p>
+        <p><strong>UTS:</strong> <?php echo $nilaiuts3; ?></p>
+        <p><strong>UAS:</strong> <?php echo $nilaiuas3; ?></p>
+        <p><strong>Nilai Akhir:</strong> <?php echo $nilaiAkhir3; ?></p>
+        <p><strong>Grade:</strong> <?php echo $grade3; ?></p>
+        <p><strong>Angka Mutu:</strong> <?php echo $mutu3; ?></p>
+        <p><strong>Bobot:</strong> <?php echo $bobot3; ?></p>
+        <p><strong>Status:</strong> <?php echo $status3; ?></p>
+
+        <h3>Matakuliah 4</h3>
+        <p><strong>Nama Matkul4:</strong> <?php echo $namamatkul4; ?></p>
+        <p><strong>SKS:</strong> <?php echo $sksmatkul4; ?></p>
+        <p><strong>Nilai Hadir:</strong> <?php echo $nilaihadir4; ?></p>
+        <p><strong>Tugas:</strong> <?php echo $nilaitugas4; ?></p>
+        <p><strong>UTS:</strong> <?php echo $nilaiuts4; ?></p>
+        <p><strong>UAS:</strong> <?php echo $nilaiuas4; ?></p>
+        <p><strong>Nilai Akhir:</strong> <?php echo $nilaiAkhir4; ?></p>
+        <p><strong>Grade:</strong> <?php echo $grade4; ?></p>
+        <p><strong>Angka Mutu:</strong> <?php echo $mutu4; ?></p>
+        <p><strong>Bobot:</strong> <?php echo $bobot4; ?></p>
+        <p><strong>Status:</strong> <?php echo $status4; ?></p>
+
+        <h3>Matakuliah 5</h3>
+        <p><strong>Nama Matkul5:</strong> <?php echo $namamatkul5; ?></p>
+        <p><strong>SKS:</strong> <?php echo $sksmatkul5; ?></p>
+        <p><strong>Nilai Hadir:</strong> <?php echo $nilaihadir5; ?></p>
+        <p><strong>Tugas:</strong> <?php echo $nilaitugas5; ?></p>
+        <p><strong>UTS:</strong> <?php echo $nilaiuts5; ?></p>
+        <p><strong>UAS:</strong> <?php echo $nilaiuas5; ?></p>
+        <p><strong>Nilai Akhir:</strong> <?php echo $nilaiAkhir5; ?></p>
+        <p><strong>Grade:</strong> <?php echo $grade5; ?></p>
+        <p><strong>Angka Mutu:</strong> <?php echo $mutu5; ?></p>
+        <p><strong>Bobot:</strong> <?php echo $bobot5; ?></p>
+        <p><strong>Status:</strong> <?php echo $status5; ?></p>
+        
+        
+    
+
       <h2>kontak kami</h2>
       <form action="" method="GET">
         <label for="txtNama"><span>Nama:</span>

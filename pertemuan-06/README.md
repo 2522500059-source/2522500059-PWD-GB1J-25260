@@ -25,7 +25,7 @@ Hari ini Kamis, 30 Oktober 2025 Saya mempelajari :
 <li>menambahkan variabel bobot</li>
 <li>menambahkan variabel nilai bobot</li>
 <li>membuat H3 Matkul 1</li>
-<li>wh</li>
+<li>mencopy H3 matkul 1 dan merubah isinya aja</li>
 <li>wh</li>
 <li>wh</li>
 
