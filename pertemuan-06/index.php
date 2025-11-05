@@ -542,8 +542,7 @@
         <p><strong>Total SKS:</strong> <?php echo $totalsks; ?></p>
         <p><strong>IPK:</strong> <?php echo number_format($ipk, 2); ?></p>
 
-    
-
+    <section id="contact">
       <h2>kontak kami</h2>
       <form action="" method="GET">
         <label for="txtNama"><span>Nama:</span>
