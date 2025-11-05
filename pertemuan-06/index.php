@@ -66,29 +66,29 @@
         $namaadik = "Tidak Punya";
         $NAMAADIK= "ADIK LAKI2= M.RAIFAN PRAYOGA DAN ADIK PR=FARZANA HUMAIRA ";
         $Namaadik = "";
+    
+    
+        ?>
 
-
-    ?>
         <h2>tentang saya &#128522</h2>
         <p>
             <strong>NIM:</strong>
              <?php
              echo $nim;
              ?>
-            </p>
-
-        <p>
+        </p>
+         <p>
             <strong>NAMA LENGKAP:</strong>
             <?php
                 echo $nama;
             ?>
-            </p>
+        </p>
         <p>
             <strong>TEMPAT LAHIR:</strong>
              <?php
                 echo $tempatlahir;
              ?>
-            </p>
+        </p>
         <p>
             <strong>TANGGAL LAHIR:</strong>
              <?php
@@ -136,7 +136,7 @@
     </section>
     <section id="IPK">
         <?php 
-            $namamatkul1='Algoritma dan Stuktur Data';
+           $namamatkul1='Algoritma dan Stuktur Data';
         $sksmatkul1='4';
         $nilaihadir1='90';
         $nilaitugas1='60';
@@ -187,12 +187,12 @@
                 $grade1="A-";
                 $mutu1=3.70;
                 $status1="Lulus";
-            } else if
+            } elseif
             ($nilaiAkhir1>=76){
                 $grade1="B+";
                 $mutu1=3.30;
                 $status1="Lulus";
-            } else if
+            } elseif
             ($nilaiAkhir1>=71){
                 $grade1="B";
                 $mutu1=3.00;
@@ -484,7 +484,7 @@
         <p><strong>Status:</strong> <?php echo $status1; ?></p>
 
 
-         <h3>Matakuliah 2</h3>
+        <h3>Matakuliah 2</h3>
         <p><strong>Nama Matkul2:</strong> <?php echo $namamatkul2; ?></p>
         <p><strong>SKS:</strong> <?php echo $sksmatkul2; ?></p>
         <p><strong>Nilai Hadir:</strong> <?php echo $nilaihadir2; ?></p>
@@ -541,7 +541,8 @@
         <p><strong>Total Bobot:</strong> <?php echo $totalbobot; ?></p>
         <p><strong>Total SKS:</strong> <?php echo $totalsks; ?></p>
         <p><strong>IPK:</strong> <?php echo number_format($ipk, 2); ?></p>
-
+   </section>
+    
     <section id="contact">
       <h2>kontak kami</h2>
       <form action="" method="GET">
@@ -560,7 +561,7 @@
         
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
-    </form>
+     </form>
     </section>
    </main>
    <footer>
