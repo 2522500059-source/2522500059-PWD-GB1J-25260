@@ -27,11 +27,11 @@
     </section>
     <section id="about">
         <?php
-        $nim = "2511500086";
+        $nim = "2412500086";
         $NIM = "2522500059";
         $Nim = "";
 
-        $nama = "Oktaviana";
+        $nama = "Oktaviana;
         $NAMA = "ANNISA";
         $Nama = "";
 

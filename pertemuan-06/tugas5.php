@@ -27,11 +27,11 @@
     </section>
     <section id="about">
         <?php
-        $nim = "2511500086";
+        $nim = "2412500086";
         $NIM = "2522500059";
         $Nim = "";
 
-        $nama = "Dedi Fitrianto";
+        $nama = "Oktaviana";
         $NAMA = "Annisa";
         $Nama = "";
 
@@ -39,11 +39,11 @@
         $TEMPATLAHIR = "PANGKALPINANG";
         $Tempatlahir = "";
 
-        $tanggallahir = "24 oktober 2006";
+        $tanggallahir = "24 oktober 2005";
         $TANGGALLAHIR = "07 JULI 2005";
         $Tanggallahir = "";
 
-        $hobi = "desain";
+        $hobi = "Bermain voly dan joging";
         $HOBI = "SUKA MEMBACA DAN SUKA OLAHRAGA";
         $Hobi = "";
 
@@ -51,19 +51,19 @@
         $PASANGAN = "BELUM ADA";
         $Pasangan = "";
 
-        $pekerjaan = "desainer";
+        $pekerjaan = "Tidak bekerja";
         $PEKERJAAN = "PHL POLDA";
         $Pekerjaan = "";
 
-        $namaortu = "Bapak Asri dan Ibuk Pidiatun";
+        $namaortu = "Bapak Ahmad dan Ibuk Sriyani";
         $NAMAORTU = "BAPAK YADI DAN IBU MAYA LISTIYANA";
         $Namaortu = "";
 
-        $namakakak = "nurita evitarina";
+        $namakakak = "Ahmad Habibi";
         $NAMAKAKAK = "TIDAK PUNYA";
         $Namakakak = "";
 
-        $namaadik = "tidak punya";
+        $namaadik = "Tidak Punya";
         $NAMAADIK= "ADIK LAKI2= M.RAIFAN PRAYOGA DAN ADIK PR=FARZANA HUMAIRA ";
         $Namaadik = "";
 
