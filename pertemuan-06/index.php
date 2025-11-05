@@ -63,7 +63,7 @@
         $NAMAKAKAK = "TIDAK PUNYA";
         $Namakakak = "";
 
-        $namaadik = "tidak punya";
+        $namaadik = "Tidak Punya";
         $NAMAADIK= "ADIK LAKI2= M.RAIFAN PRAYOGA DAN ADIK PR=FARZANA HUMAIRA ";
         $Namaadik = "";
 
