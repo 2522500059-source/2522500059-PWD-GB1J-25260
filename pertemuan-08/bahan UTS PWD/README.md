@@ -2,13 +2,12 @@
 
 silahkan sesuaikan dengan milik kalian masing-masing:<br><br>
 Hari ini, Rabu 12.NOV.2025, saya:<br>
-NIM: 0344300002<br>
-Nama: Yohanes Setiawan Japriadi<br>
-Kelompok: TI1A<br>
+NIM: 2522500059<br>
+Nama: Annisa<br>
+Kelompok: GB1J<br>
 <br>
 Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
-  <li>silahkan diisi sesuai proses pengerjaan kalian masing-masing</li>
   <li>dowload dan extrac bahan UTS</li>
   <li>membuat section id biodata</li>
 </ol>
