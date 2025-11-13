@@ -17,7 +17,7 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <li>Membuat label dan input tempat lahir</li>
 <li>Membuat label dan input Tanggal lahir dan hobi</li>
 <li>Membuat label dan input Pasangan dan Pekerjaan</li>
-<li>Membuat label dan input Nama ortu, Nama Kakak, dan Nama Adik</li>
+<li>Membuat label dan input Nama ortu,dan Nama Adik</li>
 <li>Membuat sesnim pada proses.php</li>
 <li>Membuat $SESNIM pada proses.php dan header ke index.php.</li>
 <li>Membuat variabel biodata</li>
