@@ -1,5 +1,9 @@
 <?php
   session_start();
+  $sesnama ="";
+  if (isset($_SESSION["nama"])):
+     $sesnama = $_SESSION["nama"];
+  endif;
   $sesnama = $_SESSION["nama"];
   $sesemail = $_SESSION["email"];
   $sespesan = $_SESSION["pesan"];
