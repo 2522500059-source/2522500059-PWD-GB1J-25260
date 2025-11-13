@@ -11,4 +11,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>dowload dan extrac bahan UTS</li>
   <li>membuat section id biodata</li>
  <li>mengisi biodata diri sendiri</li>
+ <li>mengecho biodata diri</li>
  <ol>

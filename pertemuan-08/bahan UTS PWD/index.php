@@ -54,7 +54,7 @@ endif;
 
     <section id="about">
       <?php
-      $nim = 2511500010;
+      $nim = "2522500059";
       $NIM = '0344300002';
       $nama = "Say'yid Abdullah";
       $Nama = 'Al\'kautar Benyamin';
@@ -64,7 +64,7 @@ endif;
         <div class="container">
           <h2>Biodata Sederhana Mahasiswa</h2>
           <from action="proses.php" method="POST">
-          <p><strong>NIM</strong> 2522500059</p>
+          <p><strong>NIM</strong> 2522500059</p> 
           <p><strong>Nama lengkap</strong> Annisa</p>
          <p><strong>Tempat Lahir:</strong> Pangkalpinang</p>
           <p><strong>Tanggal Lahir:</strong> 07 juli 2005</p>
@@ -74,7 +74,79 @@ endif;
           <p><strong>Nama Orang Tua:</strong> Bapak Yadi dan Ibu Maya Listiyana</p>
          <p><strong>Nama Kakak:</strong> tidak punya</p>
          <p><strong>Nama Adik:</strong> adik laki2 M.Raifan Prayoga dan adik pr Farzana Humaira</p>
-         </section>
+</section>
+
+      <p><strong>NIM:</strong> 
+        <?php
+        echo $nim;
+        ?>
+      </p>
+
+      <p><strong>Nama Lengkap:</strong>
+        <?php
+        echo $nama;
+        ?>
+      </p>
+
+      <p><strong>Tempat Lahir:</strong>
+        <?php
+        echo $tempat lahir;
+        ?>
+      </p>
+
+      <p><strong>Tanggal Lahir:</strong>
+        <?php
+        echo $tanggal lahir;
+        ?>
+      </p>
+
+      <p><strong>HOBI:</strong>
+        <?php
+        echo $hobi;
+        ?>
+      </p>
+
+      <p><strong>Pasangan:</strong>
+        <?php
+        echo $pasangan;
+        ?>
+      </p>
+
+      <p><strong>Pekerjaan:</strong>
+        <?php
+        echo $pekerjaan;
+        ?>
+      </p>
+
+      <p><strong>Nama orang tua:</strong>
+        <?php
+        echo $nama orang tua;
+        ?>
+      </p>
+
+      <p><strong>Nama Kakak:</strong>
+        <?php
+        echo $nama kakak;
+        ?>
+      </p>
+
+      <p><strong>Nama Adik:</strong>
+        <?php
+        echo $nama adik;
+        ?>
+      </p>
+
+      
+          
+
+
+
+      
+          
+
+
+
+      
           
 
 
