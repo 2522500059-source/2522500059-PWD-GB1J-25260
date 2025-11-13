@@ -35,7 +35,7 @@
         $NAMA = "ANNISA";
         $Nama = "";
 
-        $tempatlahir = "Pangkalpinang";
+        $tempatlahir = "jebus";
         $TEMPATLAHIR = "PANGKALPINANG";
         $Tempatlahir = "";
 
