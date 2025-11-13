@@ -64,6 +64,19 @@ endif;
         <div class="container">
           <h2>Biodata Sederhana Mahasiswa</h2>
           <from action="proses.php" method="POST">
+          <p><strong>NIM</strong> 2522500059</p>
+          <p><strong>Nama lengkap</strong> Annisa</p>
+         <p><strong>Tempat Lahir:</strong> Pangkalpinang</p>
+          <p><strong>Tanggal Lahir:</strong> 07 juli 2005</p>
+          <p><strong>Hobi:</strong> membaca dan joging</p>
+          <p><strong>Pasangan:</strong> Belum ada &hearts;</p>
+          <p><strong>Pekerjaan:</strong> PHL Polda babel</p>
+          <p><strong>Nama Orang Tua:</strong> Bapak Yadi dan Ibu Maya Listiyana</p>
+         <p><strong>Nama Kakak:</strong> tidak punya</p>
+         <p><strong>Nama Adik:</strong> adik laki2 M.Raifan Prayoga dan adik pr Farzana Humaira</p>
+         </section>
+          
+
 
       </section>
       <h2>Tentang Saya</h2>
@@ -111,7 +124,7 @@ endif;
 
       <?php if (!empty($sesnama)): ?>
         <br><hr>
-        <h2>Yang menghubungi kami</h2>
+        <h2>Terimakasih telah menghubungi kami</h2>
         <p><strong>Nama :</strong> <?php echo $sesnama ?></p>
         <p><strong>Email :</strong> <?php echo $sesemail ?></p>
         <p><strong>Pesan :</strong> <?php echo $sespesan ?></p>
