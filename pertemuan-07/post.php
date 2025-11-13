@@ -1,12 +1,19 @@
 <?php
   session_start();
-  $sesnama ="";
+  $sesnama = "";
   if (isset($_SESSION["nama"])):
      $sesnama = $_SESSION["nama"];
   endif;
-  $sesnama = $_SESSION["nama"];
-  $sesemail = $_SESSION["email"];
-  $sespesan = $_SESSION["pesan"];
+
+  $sesemail = "";
+  if (isset($_SESSION["email"];)):
+     $sesemail = $_SESSION["email"];
+  endif; 
+
+  $sespesan = "";
+  if (isset($_SESSION["pesan"];)):
+     $sesemail = $_SESSION["pesan"];
+  endif; 
 ?>
 <!DOCTYPE html>
 <html lang="en">
