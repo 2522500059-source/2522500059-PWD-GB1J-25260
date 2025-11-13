@@ -9,4 +9,5 @@ Hari ini Kamis,13 November 2025 Saya mempelajari:<br>
 <li>membuat section baru di file index.php yaitu section IPK</li>
 <li>membuat variabel matakuliah</li>
 <li>membuat variabel perhitungan ipk</li>
+<li>memindahkan section#ipk diposisi yang diinginkan </li>
 </ol>
