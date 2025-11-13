@@ -332,8 +332,6 @@
         $totalsks= $sksmatkul1 + $sksmatkul2 + $sksmatkul3 + $sksmatkul4 + $sksmatkul5;
         $ipk= $totalbobot/$totalsks;
         ?>
-
-       
      
       ?>
   <h2>Tentang Saya</h2>

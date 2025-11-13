@@ -13,4 +13,6 @@ Hari ini Kamis,13 November 2025 Saya mempelajari:<br>
 <li>membuat skrip menghitung nilai akhir 1 sampai 5</li>
 <li>membuat kondisi kehadiran di bawah 70, grade =  E</li>
 <li>membuat kondisi status berdasarkan grade</li>
+<li>menghitung bobot 1 sampai 5</li>
+<li>hitung total bobot dan hitung total sks</li>
 </ol>
