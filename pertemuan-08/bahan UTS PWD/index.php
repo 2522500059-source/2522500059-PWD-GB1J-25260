@@ -60,7 +60,10 @@ endif;
       $Nama = 'Al\'kautar Benyamin';
       $tempat = "Jebus";
       ?>
-      <section id="Biodata Sederhana Mahasiswa">
+      <section id="Biodata">
+        <div class="container">
+          <h2>Biodata Sederhana Mahasiswa</h2>
+          <from action="proses.php" method="POST">
 
       </section>
       <h2>Tentang Saya</h2>
