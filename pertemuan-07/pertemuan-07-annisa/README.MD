@@ -15,4 +15,5 @@ Hari ini Kamis,13 November 2025 Saya mempelajari:<br>
 <li>membuat kondisi status berdasarkan grade</li>
 <li>menghitung bobot 1 sampai 5</li>
 <li>hitung total bobot dan hitung total sks</li>
+<li>hitung ipk</li>
 </ol>
