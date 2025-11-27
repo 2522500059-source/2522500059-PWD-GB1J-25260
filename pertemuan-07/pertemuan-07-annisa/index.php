@@ -332,25 +332,107 @@
         $totalsks= $sksmatkul1 + $sksmatkul2 + $sksmatkul3 + $sksmatkul4 + $sksmatkul5;
         $ipk= $totalbobot/$totalsks;
         ?>
+
+         <h2>Nilai Saye</h2>
+
+        <h3>Matakuliah 1</h3>
+        <p><strong>Nama Matkul1:</strong> <?php echo $namamatkul1; ?></p>
+        <p><strong>SKS:</strong> <?php echo $sksmatkul1; ?></p>
+        <p><strong>Nilai Hadir:</strong> <?php echo $nilaihadir1; ?></p>
+        <p><strong>Tugas:</strong> <?php echo $nilaitugas1; ?></p>
+        <p><strong>UTS:</strong> <?php echo $nilaiuts1; ?></p>
+        <p><strong>UAS:</strong> <?php echo $nilaiuas1; ?></p>
+        <p><strong>Nilai Akhir:</strong> <?php echo $nilaiAkhir1; ?></p>
+        <p><strong>Grade:</strong> <?php echo $grade1; ?></p>
+        <p><strong>Angka Mutu:</strong> <?php echo $mutu1; ?></p>
+        <p><strong>Bobot:</strong> <?php echo $bobot1; ?></p>
+        <p><strong>Status:</strong> <?php echo $status1; ?></p>
+
+        <h3>Matakuliah 2</h3>
+        <p><strong>Nama Matkul2:</strong> <?php echo $namamatkul2; ?></p>
+        <p><strong>SKS:</strong> <?php echo $sksmatkul2; ?></p>
+        <p><strong>Nilai Hadir:</strong> <?php echo $nilaihadir2; ?></p>
+        <p><strong>Tugas:</strong> <?php echo $nilaitugas2; ?></p>
+        <p><strong>UTS:</strong> <?php echo $nilaiuts2; ?></p>
+        <p><strong>UAS:</strong> <?php echo $nilaiuas2; ?></p>
+        <p><strong>Nilai Akhir:</strong> <?php echo $nilaiAkhir2; ?></p>
+        <p><strong>Grade:</strong> <?php echo $grade2; ?></p>
+        <p><strong>Angka Mutu:</strong> <?php echo $mutu2; ?></p>
+        <p><strong>Bobot:</strong> <?php echo $bobot2; ?></p>
+        <p><strong>Status:</strong> <?php echo $status2; ?></p>
+
+        <h3>Matakuliah 3</h3>
+        <p><strong>Nama Matkul3:</strong> <?php echo $namamatkul3; ?></p>
+        <p><strong>SKS:</strong> <?php echo $sksmatkul3; ?></p>
+        <p><strong>Nilai Hadir:</strong> <?php echo $nilaihadir3; ?></p>
+        <p><strong>Tugas:</strong> <?php echo $nilaitugas3; ?></p>
+        <p><strong>UTS:</strong> <?php echo $nilaiuts3; ?></p>
+        <p><strong>UAS:</strong> <?php echo $nilaiuas3; ?></p>
+        <p><strong>Nilai Akhir:</strong> <?php echo $nilaiAkhir3; ?></p>
+        <p><strong>Grade:</strong> <?php echo $grade3; ?></p>
+        <p><strong>Angka Mutu:</strong> <?php echo $mutu3; ?></p>
+        <p><strong>Bobot:</strong> <?php echo $bobot3; ?></p>
+        <p><strong>Status:</strong> <?php echo $status3; ?></p>
+
+        <h3>Matakuliah 4</h3>
+        <p><strong>Nama Matkul4:</strong> <?php echo $namamatkul4; ?></p>
+        <p><strong>SKS:</strong> <?php echo $sksmatkul4; ?></p>
+        <p><strong>Nilai Hadir:</strong> <?php echo $nilaihadir4; ?></p>
+        <p><strong>Tugas:</strong> <?php echo $nilaitugas4; ?></p>
+        <p><strong>UTS:</strong> <?php echo $nilaiuts4; ?></p>
+        <p><strong>UAS:</strong> <?php echo $nilaiuas4; ?></p>
+        <p><strong>Nilai Akhir:</strong> <?php echo $nilaiAkhir4; ?></p>
+        <p><strong>Grade:</strong> <?php echo $grade4; ?></p>
+        <p><strong>Angka Mutu:</strong> <?php echo $mutu4; ?></p>
+        <p><strong>Bobot:</strong> <?php echo $bobot4; ?></p>
+        <p><strong>Status:</strong> <?php echo $status4; ?></p>
+
+        <h3>Matakuliah 5</h3>
+        <p><strong>Nama Matkul5:</strong> <?php echo $namamatkul5; ?></p>
+        <p><strong>SKS:</strong> <?php echo $sksmatkul5; ?></p>
+        <p><strong>Nilai Hadir:</strong> <?php echo $nilaihadir5; ?></p>
+        <p><strong>Tugas:</strong> <?php echo $nilaitugas5; ?></p>
+        <p><strong>UTS:</strong> <?php echo $nilaiuts5; ?></p>
+        <p><strong>UAS:</strong> <?php echo $nilaiuas5; ?></p>
+        <p><strong>Nilai Akhir:</strong> <?php echo $nilaiAkhir5; ?></p>
+        <p><strong>Grade:</strong> <?php echo $grade5; ?></p>
+        <p><strong>Angka Mutu:</strong> <?php echo $mutu5; ?></p>
+        <p><strong>Bobot:</strong> <?php echo $bobot5; ?></p>
+        <p><strong>Status:</strong> <?php echo $status5; ?></p>
+        
+        <hr>
+        <h3>Rekap Nilai</h3>
+        <p><strong>Total Bobot:</strong> <?php echo $totalbobot; ?></p>
+        <p><strong>Total SKS:</strong> <?php echo $totalsks; ?></p>
+        <p><strong>IPK:</strong> <?php echo number_format($ipk, 2); ?></p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Saye</h2>
+        <form action="proses1.php" method="GET">
+            <label for="txtNama"><span>Nama:</span>
+            <input type="text" id="txtNama" name="txtNama" placeholder="Your Name">
+            </label>
+
+            <label for="txtEmail"><span>Email:</span>
+                <input type="email" id="txtEmail" name="txtEmail" placeholder="example@gmail.com">
+            </label>
+            
+            <label for="txtPesan"><span>Pesan Anda:</span>
+                <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..."></textarea>
+                <small id="charCount">0/200 karakter</small>
+            </label>
+
+            <button type="submit">Kirim &check;</button>
+            <button type="reset">Batal &cross;</button>
+        </form>
+    </section>
+   </main>
+   <footer>
+    <p>&copy; &#9786; 2025 Annisa 2522500059</p>
+   </footer>
+   <script src="script.js"></script>
+</body>
+</html>
      
-      ?>
-  <h2>Tentang Saya</h2>
-  <p><strong>NIM:</strong>
-    <?php
-        echo $NIM;
-        ?>
-  </p>
-  <p><strong>Nama Lengkap:</strong>
-    <?php
-        echo $Nama;
-        ?> &#128526;
-  </p>
-  <p><strong>Tempat Lahir:</strong> Pangkalpinang</p>
-  <p><strong>Tanggal Lahir:</strong> 1 Januari 2000</p>
-  <p><strong>Hobi:</strong> Memasak, coding, dan bermain musik &#127926;</p>
-  <p><strong>Pasangan:</strong> Belum ada &hearts;</p>
-  <p><strong>Pekerjaan:</strong> Dosen di ISB Atma Luhur &copy; 2025</p>
-  <p><strong>Nama Orang Tua:</strong> Bapak Setiawan dan Ibu Maria</p>
-  <p><strong>Nama Kakak:</strong> Antonius Setiawan</p>
-  <p><strong>Nama Adik:</strong> Christina Setiawan</p>
-</section>
+   
