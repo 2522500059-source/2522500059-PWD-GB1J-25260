@@ -26,4 +26,5 @@
   <li>menambah format tanggal,bulan,dan tahun</li>
   <li>menambah kode pada fungsi.php untuk merender hasil atau output biodata</li>
   <li>menghapus dan menambah kode di section about</li>
+  <li>menambah kode di index.php untuk menyertakan file fungsi.php</li>
 </ol
