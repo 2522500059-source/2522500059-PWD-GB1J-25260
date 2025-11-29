@@ -7,7 +7,7 @@ $_SESSION["sesnama"] = $sesnama;
 $_SESSION["sesemail"] = $sesemail;
 $_SESSION["sespesan"] = $sespesan;
 
-&arrBiodata = [
+$arrBiodata = [
 "nim" => $_POST["txtNim"] ?? "",
 "nama" => $_POST["txtNmLengkap"] ?? "",
 "tempat" => $_POST["txtT4Lhr"] ?? "",
@@ -19,12 +19,8 @@ $_SESSION["sespesan"] = $sespesan;
 "kakak" => $_POST["txtNmKakak"] ?? "",
 "adik" => $_POST["txtNmAdik"] ?? ""
 ];
- 
-(&databiodata $k $v) {
-    echo "<p><strong>$k</strong>: $v</p>"
-}
+
 
 $_SESSION["biodata"] = $arrBiodata;
 header("location: index.php#about");
-header("location: index.php");
 ?>
