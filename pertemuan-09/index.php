@@ -103,7 +103,7 @@ endif;
     </section>
 
     <?php
-    $biodata - $_SESSION["biodata"] ?? [];
+    $biodata = $_SESSION["biodata"] ?? [];
 
     $fieldConfig = [
       "nim" => ["label" => "NIM:", "suffix" => ""],
@@ -123,8 +123,8 @@ endif;
       <h2>Tentang Saya</h2>
       <?php foreach ($fieldConfig as $kunci => $metadata): ?>
         <p>
-          <strong><?=  $metadata["label"] ?></strong>
-          <?= htmlspecialchars(string: $biodata[$kunci] ?? "")  ?>
+          <strong><?= $metadata["label"] ?></strong>
+          <?= htmlspecialchars($biodata[$kunci] ?? "")  ?>
           <?= $metadata["suffix"] ?>
         </p>
         <?php endforeach; ?>
