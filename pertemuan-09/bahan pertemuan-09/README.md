@@ -20,4 +20,6 @@
   <li>menghapus dan menambah session#about</li>
   <li>menambah looping foreach di bagian section id=about untuk menampilkan array</li>
   <li>menghapus dan menggunakan foreach untuk menampilkan isi array associative $fieldconfig</li>
-</ol>
+  <li>memperbaiki error di proses.php</li>
+  <li>membuat file baru dengan nama fungsi.php</li>
+</ol
