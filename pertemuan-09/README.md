@@ -24,4 +24,5 @@
   <li>membuat file baru dengan nama fungsi.php</li>
   <li>menambahkan kode fungsi bersih dan fungsi tidakkosong</li>
   <li>menambah format tanggal,bulan,dan tahun</li>
+  <li>menambah kode pada fungsi.php untuk merender hasil atau output biodata</li>
 </ol
