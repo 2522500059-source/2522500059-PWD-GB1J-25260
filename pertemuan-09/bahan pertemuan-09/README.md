@@ -22,4 +22,5 @@
   <li>menghapus dan menggunakan foreach untuk menampilkan isi array associative $fieldconfig</li>
   <li>memperbaiki error di proses.php</li>
   <li>membuat file baru dengan nama fungsi.php</li>
+  <li>menambahkan kode fungsi bersih dan fungsi tidakkosong</li>
 </ol
