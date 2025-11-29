@@ -18,4 +18,5 @@
   <li>ubah data POST ke array associative<li>
   <li>menghapus dan menambah $session ["biodata] = $arrBiodata yang lebih efisien<li>
   <li>menghapus dan menambah session#about<li>
+  <li>menambah looping foreach di bagian section id=about untuk menampilkan array<li>
 </ol>
