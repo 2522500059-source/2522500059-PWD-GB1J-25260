@@ -11,4 +11,5 @@ Hari ini tanggal 04/12/2025 ,saya mempelajari : <br>
 <li>menambah create atau insert record untuk tabel tbl_tamu</li>
 <li>menduplikat file read.php dan rename menjadi read_inc.php</li>
 <li>menambah kode fieldcontact di read_inc.php</li>
+<li>mengganti kode untuk menampilkan data dari read_inc.php</li>
 </ol>
