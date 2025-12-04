@@ -1,5 +1,5 @@
 <?php
-function bersihhkan($str)
+function bersihkan($str)
 {
     return htmlspecialchars(trim($str));
 }
@@ -20,9 +20,9 @@ function tampilkanBiodata($conf, $arr)
     foreach ($conf as $k => $v) {
         $label = $v["label"];
         $nilai = bersihkan($arr[$k] ?? '');
-        $suffic = $v["suffix"];
+        $suffix = $v["suffix"];
 
-        $html .= "<P><strong>{$label}</strong> {$nilai}{suffix}</p>";
+        $html .= "<P><strong>{$label}</strong> {$nilai}{$suffix}</p>";
     }
     return $html;
 }

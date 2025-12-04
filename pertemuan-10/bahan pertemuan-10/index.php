@@ -85,7 +85,6 @@ require_once __DIR__ . '/fungsi.php';
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
-
     </section>
 
     <?php
@@ -94,9 +93,9 @@ require_once __DIR__ . '/fungsi.php';
     $fieldConfig = [
       "nim" => ["label" => "NIM:", "suffix" => ""],
       "nama" => ["label" => "Nama Lengkap:", "suffix" => " &#128526;"],
-      "tempat" => ["label" => " Tempat Tinggal:", "suffix" => ""],
+      "tempat" => ["label" => "Tempat Lahir:", "suffix" => ""],
       "tanggal" => ["label" => "Tanggal Lahir:", "suffix" => ""],
-      "hobi" => ["label" => "Hobi:", "suffix" => "$#127926"],
+      "hobi" => ["label" => "Hobi:", "suffix" => " &#127926;"],
       "pasangan" => ["label" => "Pasangan:", "suffix" => " &hearts;"],
       "pekerjaan" => ["label" => "Pekerjaan:", "suffix" => " &copy; 2025"],
       "ortu" => ["label" => "Nama Orang Tua:", "suffix" => ""],
@@ -137,14 +136,14 @@ require_once __DIR__ . '/fungsi.php';
       $fieldContact = [
         "nama" => ["label" => "Nama:", "suffix" => ""],
         "email" => ["label" => "Email:", "suffix" => ""],
-        "pesan" => ["label" => " Pesan Anda:", "suffix" => ""],
+        "pesan" => ["label" => "Pesan Anda:", "suffix" => ""]
       ];
       ?>
+
       <br>
       <hr>
       <h2>Yang menghubungi kami</h2>
       <?= tampilkanBiodata($fieldContact, $contact) ?>
-
     </section>
   </main>
 
