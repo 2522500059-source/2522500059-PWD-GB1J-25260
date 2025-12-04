@@ -9,4 +9,5 @@ Hari ini tanggal 04/12/2025 ,saya mempelajari : <br>
 <li>membuat tabel tbl_tamu didalam database db_pwd2025</li>
 <li>membuat file baru yang bernama read.php dan menambah kode</li>
 <li>menambah create atau insert record untuk tabel tbl_tamu</li>
+<li>menduplikat file read.php dan rename menjadi read_inc.php</li>
 </ol>
