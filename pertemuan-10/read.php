@@ -1,4 +1,4 @@
-<?
+<?php
 require 'koneksi.php'
 
 $sql = "SELECT * FROM tbl_tamu ORDER BY cid DESC";
@@ -17,7 +17,7 @@ $q = mysqli_query($conn, $sql);
             <td><?= $row['cid']; ?></td>
             <td><?= htmlspecialchars($row['cnama']); ?></td>
             <td><?= htmlspecialchars($row['cemail']); ?></td>
-            <td><?= nL2br(htmlspecialchars($row['cnama'])); ?></td>
+            <td><?= nL2br(htmlspecialchars($row['cpesan'])); ?></td>
         </tr>
-        <?php endwhile;?>
+        <?php endwhile; ?>
     </table>
