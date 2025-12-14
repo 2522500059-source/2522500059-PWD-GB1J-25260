@@ -9,4 +9,5 @@ Hari ini tanggal 11/12/2025 , saya mempelajari : <br>
 <li>menambah kode flash message di index.php</li>
 <li>menambah kode dari from untuk antisipasi jika error</li>
 <li>menambah kode di proses.php</li>
+<li>menambah kode data $post</li>
 </ol>
