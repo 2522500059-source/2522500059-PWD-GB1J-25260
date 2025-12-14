@@ -11,4 +11,5 @@ Hari ini tanggal 11/12/2025 , saya mempelajari : <br>
 <li>menambah kode di proses.php</li>
 <li>menambah kode data $post</li>
 <li>menambah kode validasi di proses.php</li>
+<li>menambah kode insert untuk simpan pesan sukses/gagal</li>
 </ol>
