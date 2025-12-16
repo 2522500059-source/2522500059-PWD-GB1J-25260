@@ -20,4 +20,5 @@ Hari ini tanggal 11/12/2025 , saya mempelajari : <br>
 <li>menambah dcreated di tbl_tamu</li>
 <li>menambah dcreated di read php</li>
 <li>menambah require si read inc</li>
+<li>menambah local host</li>
 </ol>
