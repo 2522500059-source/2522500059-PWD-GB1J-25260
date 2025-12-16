@@ -15,4 +15,5 @@ Hari ini tanggal 11/12/2025 , saya mempelajari : <br>
 <li>menambah file baru yang bernama read.php dan menambah kode</li>
 <li>menambah kode nomor read.php</li>
 <li>menambah validasi pesan 3 karakter dan pesan 10 karakter</li>
+<li>menambah capctha di proses.php</li>
 </ol>
