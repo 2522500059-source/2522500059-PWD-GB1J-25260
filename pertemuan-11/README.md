@@ -17,4 +17,5 @@ Hari ini tanggal 11/12/2025 , saya mempelajari : <br>
 <li>menambah validasi pesan 3 karakter dan pesan 10 karakter</li>
 <li>menambah capctha di proses.php</li>
 <li>menambah label capctha di index.php</li>
+<li>menambah dcreated di tbl_tamu</li>
 </ol>
