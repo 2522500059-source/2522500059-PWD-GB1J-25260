@@ -13,4 +13,5 @@ Hari ini tanggal 11/12/2025 , saya mempelajari : <br>
 <li>menambah kode validasi di proses.php</li>
 <li>menambah kode insert untuk simpan pesan sukses/gagal</li>
 <li>menambah file baru yang bernama read.php dan menambah kode</li>
+<li>menambah kode nomor read.php</li>
 </ol>
