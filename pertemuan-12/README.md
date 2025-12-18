@@ -9,4 +9,6 @@ Hari ini tanggal 18/12/2025 , saya mempelajari : <br>
 <li>menambah kolom aksi di read.php</li>
 <li>menambah kode untuk menampil flash sukses dan flash error di read.php</li>
 <li>menambah file baru yang bernama edit.php</li>
+<li>menambah kode untuk menampilkan form dengan data lama yang
+dibaca berdasarkan cid (prefill form)</li>
 </ol>
