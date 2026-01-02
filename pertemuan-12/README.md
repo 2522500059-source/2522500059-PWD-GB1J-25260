@@ -11,5 +11,6 @@ Hari ini tanggal 18/12/2025 , saya mempelajari : <br>
 <li>menambah file baru yang bernama edit.php</li>
 <li>menambah kode untuk menampilkan form dengan data lama yang
 dibaca berdasarkan cid (prefill form)</li>
-<li>menbah file baru yang bernama proses_update.php</li>
+<li>menambah file baru yang bernama proses_update.php</li>
+<li>menambah codingan untuk menyimpan perubahan menggunakan query update dan prepared statement</li>
 </ol>
