@@ -3,15 +3,15 @@
   require __DIR__ . './koneksi.php';
   require_once __DIR__ . '/fungsi.php';
 
-//   #validasi cid wajib angka dan > 0
-//   $cid = filter_input(INPUT_POST, 'cid', FILTER_VALIDATE_INT, [
-//     'options' => ['min_range' => 1]
-//   ]);
+  #validasi cid wajib angka dan > 0
+  $cid = filter_input(INPUT_GET, 'cid', FILTER_VALIDATE_INT, [
+    'options' => ['min_range' => 1]
+  ]);
 
-//   if (!$cid) {
-//     $_SESSION['flash_error'] = 'CID Tidak Valid.';
-//     redirect_ke('edit.php?cid='. (int)$cid);
-//   }
+  if (!$cid) {
+    $_SESSION['flash_error'] = 'CID Tidak Valid.';
+    redirect_ke('read.php');
+  }
   /*
   kondisi di bawah ini hanya dikerjakan jika ada error, 
   simpan nilai lama dan pesan error, lalu redirect (konsep PRG)
@@ -26,8 +26,7 @@
     (WAJIB WHERE cid = ?)
   */
   $stmt = mysqli_prepare($conn, "UPDATE tbl_tamu 
-                                SET cnama = ?, cemail = ?, cpesan = ? 
-                                #WHERE cid = ?");
+                                 WHERE cid = ?");
   if (!$stmt) {
     #jika gagal prepare, kirim pesan error (tanpa detail sensitif)
     $_SESSION['flash_error'] = 'Terjadi kesalahan sistem (prepare gagal).';
@@ -35,7 +34,7 @@
   }
 
   #bind parameter dan eksekusi (s = string, i = integer)
-  mysqli_stmt_bind_param($stmt, "sssi", $cid);
+  mysqli_stmt_bind_param($stmt, "i", $cid);
 
   if (mysqli_stmt_execute($stmt)) { #jika berhasil, kosongkan old value
     /*
