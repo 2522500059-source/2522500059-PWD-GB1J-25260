@@ -10,5 +10,6 @@ Hari ini tanggal 10/01/2026, saya mempelajari :<br>
 <Li>mengcopy proses update ke delete</li>
 <li>menghapus kode proses delete menyesuaikan</li>
 <li>mengubah kode proses delete</li>
+<li>menambah parameter cid</li>
 <li></li>
 </ol>
