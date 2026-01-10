@@ -12,5 +12,5 @@ Hari ini tanggal 10/01/2026, saya mempelajari :<br>
 <li>mengubah kode proses delete</li>
 <li>menambah parameter cid</li>
 <li>mencari eror</li>
-<li></li>
+<li>menambah kode peringatan</li>
 </ol>
