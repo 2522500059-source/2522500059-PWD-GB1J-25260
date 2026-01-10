@@ -15,12 +15,12 @@ $cid = filter_input(INPUT_POST, 'cid', FILTER_VALIDATE_INT, [
 ]);
 
 if (!$cid) {
-    $_SESSION['flash_error'] = 'CID tidak valid.';
+    $_SESSION['flash_error'] = 'CID Tidak valid.';
     redirect_ke('edit.php?cid=' . (int)$cid);
 }
 
 // ambil dan bersihkan (sanitasi) nilai dari form
-$nama    = bersihkan($_POST['txtNama'] ?? '');
+$nama    = bersihkan($_POST['txtNama']  ?? '');
 $email   = bersihkan($_POST['txtEmail'] ?? '');
 $pesan   = bersihkan($_POST['txtPesan'] ?? '');
 $captcha = bersihkan($_POST['txtCaptcha'] ?? '');
@@ -35,7 +35,7 @@ if ($nama === '') {
 if ($email === '') {
     $errors[] = 'Email wajib diisi.';
 } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    $errors[] = 'Format email tidak valid.';
+    $errors[] = 'Format e-mail tidak valid.';
 }
 
 if ($pesan === '') {
@@ -54,7 +54,7 @@ if (mb_strlen($pesan) < 10) {
     $errors[] = 'Pesan minimal 10 karakter.';
 }
 
-if ($captcha != "6") {
+if ($captcha!=="6") {
     $errors[] = 'Jawaban ' . $captcha. 'captcha salah.';
 }
 
@@ -92,11 +92,10 @@ if (mysqli_stmt_execute($stmt)) {  // Jika berhasil, kosongkan old value
     unset($_SESSION['old']);
 
     // Redirect balik ke read.php dan tampilkan info sukses
-    
+
     $_SESSION['flash_sukses'] = "Terima kasih, data Anda sudah diperbaharui.";
-    redirect_ke('read.php'); // pola PRG: kembali ke data dan exit
-} else {
-    // Jika gagal, simpan kembali old value dan tampilkan error umum
+    redirect_ke('read.php'); // pola PRG: kembali ke data dan exit()
+} else { // Jika gagal, simpan kembali old value dan tampilkan error umum
     $_SESSION['old'] = [
         'nama'  => $nama,
         'email' => $email,

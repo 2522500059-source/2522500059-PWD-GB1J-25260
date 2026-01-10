@@ -8,7 +8,6 @@ $q = mysqli_query($conn, $sql);
 if (!$q) {
     die("Query error: " . mysqli_error($conn));
 }
-$no = 1;
 ?>
 
 <?php
@@ -43,17 +42,17 @@ $no = 1;
 <th>Email</th>
 <th>Pesan</th>
 <th>Created At</th>
-</tr> 
+</tr>
+<?php $i = 1; ?>
 <?php while ($row = mysqli_fetch_assoc($q)): ?>
 <tr>
-
-<td><?= $no++; ?></td>
+<td><?= $i++; ?></td>
 <td><a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a></td>
 <td><?= $row['cid']; ?></td>
 <td><?= htmlspecialchars($row['cnama']); ?></td>
 <td><?= htmlspecialchars($row['cemail']); ?></td>
 <td><?= nl2br(htmlspecialchars($row['cpesan'])); ?></td>
-<td><?= htmlspecialchars($row['dcreated_at']); ?></td>
+<td><?= formatTanggal(htmlspecialchars($row['dcreated_at'])); ?></td>
 </tr>
 <?php endwhile; ?>
 </table>

@@ -17,7 +17,7 @@ $errors = [];
 
 if ($captcha === "") {
     $errors[] = "Captcha harus diisi!";
-} elseif ($captcha != 5) {
+} elseif ($captcha != '') {
     $errors[] = "Jawaban captcha salah!";
 }
 

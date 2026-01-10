@@ -23,27 +23,15 @@ rawan lupa validasi. Untuk input dari $_GET atau $_POST,
 filter_input() lebih disarankan daripada $_GET atau $_POST.
 */
 
-$cid = filter_input(INPUT_GET, 'cid', FILTER_VALIDATE_INT, [
-    'options' => ['min_range' => 1]
-]);
-
 /*
-Skrip di atas cara penulisan lamanya adalah:
-$cid = $_GET['cid'] ?? '';
-$cid = (int)$cid;
-
-Cara lama seperti di atas akan mengambil data mentah
-kemudian validasi dilakukan secara terpisah, sehingga
+Cek apakah $cid bernilai valid:
+kalau validasi dilakukan secara terpisah, sehingga
 rawan lupa validasi. Untuk input dari GET atau POST,
 filter_input() lebih disarankan daripada $_GET atau $_POST.
 */
 
-// Cek apakah cid bernilai valid.
-// Kalau $cid tidak valid, maka jangan lanjutkan proses,
-// kembalikan pengguna ke halaman awal (read.php) sembari
-// mengirimkan penanda error.
 if (!$cid) {
-    $_SESSION['flash-error'] = 'Akses tidak valid.';
+    $_SESSION['flash_error'] = 'Akses tidak valid.';
     redirect_ke('read.php');
 }
 
@@ -51,14 +39,10 @@ if (!$cid) {
 Ambil data lama dari DB menggunakan prepared statement.
 Jika ada kesalahan, tampilkan penanda error.
 */
-$stmt = mysqli_prepare(
-    $conn,
-    "SELECT cid, cname, cemail, cpesan
-     FROM tb_tamu WHERE cid = ? LIMIT 1"
-);
-
+$stmt = mysqli_prepare( $conn,  "SELECT cid, cnama, cemail, cpesan
+                                    FROM tbl_tamu WHERE cid = ? LIMIT 1");
 if (!$stmt) {
-    $_SESSION['flash-error'] = 'Query tidak benar.';
+    $_SESSION['flash_error'] = 'Query tidak benar.';
     redirect_ke('read.php');
 }
 
@@ -69,19 +53,19 @@ $row = mysqli_fetch_assoc($res);
 mysqli_stmt_close($stmt);
 
 if (!$row) {
-    $_SESSION['flash-error'] = 'Record tidak ditemukan.';
+    $_SESSION['flash_error'] = 'Record tidak ditemukan.';
     redirect_ke('read.php');
 }
 
 // Nilai awal (prefill form)
-$nama  = $row['cname']  ?? '';
+$nama  = $row['cnama'] ?? '';
 $email = $row['cemail'] ?? '';
 $pesan = $row['cpesan'] ?? '';
 
 /*
 Ambil error dan nilai old input kalau ada
 */
-$flash_error = $_SESSION['flash-error'] ?? '';
+$flash_error = $_SESSION['flash_error'] ?? '';
 $old = $_SESSION['old'] ?? [];
 unset($_SESSION['flash-error'], $_SESSION['old']);
 
@@ -118,80 +102,46 @@ if (!empty($old)) {
 <main>
 <section id="contact">
     <h2>Edit Buku Tamu</h2>
-
     <?php if (!empty($flash_error)) : ?>
         <div style="padding:10px; margin-bottom:10px;
-             background:#fdd; color:#721c24; border-radius:5px;">
+             background:#f8d7da; color:#721c24; border-radius:6px;">
             <?= $flash_error; ?>
         </div>
     <?php endif; ?>
-
     <form action="proses_update.php" method="POST">
+
         <input type="text" name="cid" value="<?= (int)$cid; ?>">
 
-        <label for="txtNama">
-            <span>Nama:</span>
+        <label for="txtNama"><span>Nama:</span>
             <input type="text" id="txtNama" name="txtNama"
                    placeholder="Masukkan nama" required autocomplete="name"
-                   value="<?= !empty($nama) ? $nama : ''; ?>">
+                   value="<?= !empty($nama) ? $nama : '' ?>">
         </label>
 
-        <label for="txtEmail">
-            <span>Email:</span>
+        <label for="txtEmail"><span>Email:</span>
             <input type="email" id="txtEmail" name="txtEmail"
                    placeholder="Masukkan email" required autocomplete="email"
-                   value="<?= !empty($email) ? $email : ''; ?>">
+                   value="<?= !empty($email) ? $email : '' ?>">
         </label>
 
-        <label for="txtPesan">
-            <span>Pesan Anda:</span>
+        <label for="txtPesan"><span>Pesan Anda:</span>
             <textarea id="txtPesan" name="txtPesan" rows="4"
-                      placeholder="Tulis pesan anda..."><?= !empty($pesan) ? $pesan : ''; ?></textarea>
+              placeholder="Tulis pesan anda..."
+              required><?= !empty($pesan) ? $pesan : '' ?></textarea>
         </label>
 
-        <label for="txtCaptcha">
-            <span>Captcha 2 x 3 = ?</span>
+        <label for="txtCaptcha"><span>Captcha 2 x 3 = ?</span>
             <input type="number" id="txtCaptcha" name="txtCaptcha"
-                   placeholder="Jawab Pertanyaan..." required>
+                placeholder="Jawab Pertanyaan..." required>
         </label>
 
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
         <a href="read.php" class="reset">Kembali</a>
     </form>
-</section>
+ </section>
 </main>
  
 <script src="script.js"></script>
 </body>
 </html>
-
-  
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
