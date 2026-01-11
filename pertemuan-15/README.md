@@ -13,4 +13,5 @@ Hari ini tanggal 11/01/2026 , saya mempelajari <br>
 <li>mengubah kode index.php ke biodata</li>
 <li>membuat kode edit_biodata.php</li>
 <li>membuat kode proses_delete_biodata.php</li>
+<li>membuat kode proses_updat_biodata.php</li>
 </ol>
