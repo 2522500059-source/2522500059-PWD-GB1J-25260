@@ -10,4 +10,5 @@ Hari ini tanggal 11/01/2026 , saya mempelajari <br>
 <li>mengcopy file pertemuan 15 materi dari dosen</li>
 <li>menambah file baru yang bernama read_biodata.php dan menambah kode</li>
 <li>membuat proses biodata dan menambah kode</li>
+<li>mengubah kode index.php ke biodata</li>
 </ol>
