@@ -59,7 +59,7 @@
       <td><?= htmlspecialchars($row['cnamaorangtua']); ?></td>
       <td><?= htmlspecialchars($row['cnama_kakak']); ?></td>
       <td><?= htmlspecialchars($row['cnama_adik']); ?></td>
-      <td><?= formatTanggal(htmlspecialchars($row['dcreated_at'])); ?></td>
+      
     </tr>
   <?php endwhile; ?>
 </table>

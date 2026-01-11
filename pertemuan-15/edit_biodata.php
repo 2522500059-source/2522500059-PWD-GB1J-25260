@@ -54,20 +54,21 @@
 
   if (!$row) {
     $_SESSION['flash_error'] = 'Record tidak ditemukan.';
-    redirect_ke('read_biodata).php');
+    redirect_ke('read_biodata.php');
   }
 
   #Nilai awal (prefill form)
   $nim  = $row['cnim'] ?? '';
-  $nama = $row['cnama_lengkap'] ?? '';
-  $tempat_lahir = $row['ctempat_lahir'] ?? '';
-    $tanggal_lahir = $row['ctanggal_lahir'] ?? '';
-    $hobi = $row['chobi'] ?? '';
-    $pasangan = $row['cpasangan'] ?? '';
-    $pekerjaan = $row['cpekerjaan'] ?? '';
-    $nama_ortu = $row['cnamaortu'] ?? '';
-    $nama_kakak = $row['cnama_kakak'] ?? '';
-    $nama_adik = $row['cnama_adik'] ?? '';
+$nama = $row['cnama_lengkap'] ?? '';
+$tempat_lahir = $row['ctempat_lahir'] ?? '';
+$tanggal_lahir = $row['ctanggal_lahir'] ?? '';
+$hobi = $row['chobi'] ?? '';
+$pasangan = $row['cpasangan'] ?? '';
+$pekerjaan = $row['cpekerjaan'] ?? '';
+$nama_ortu = $row['cnamaorangtua'] ?? '';
+$nama_kakak = $row['cnama_kakak'] ?? '';
+$nama_adik = $row['cnama_adik'] ?? '';
+
   #Ambil error dan nilai old input kalau ada
  $flash_error = $_SESSION['flash_error'] ?? '';
   $old_biodata = $_SESSION['old_biodata'] ?? [];
@@ -151,8 +152,9 @@
     </label>
 
     <label>Nama Orang Tua:
-      <input type="text" name="nama_ortu" value="<?= htmlspecialchars($namaortu); ?>" required>
-    </label>
+  <input type="text" name="nama_ortu"
+         value="<?= htmlspecialchars($nama_ortu); ?>" required>
+</label>
 
     <label>Nama Kakak:
       <input type="text" name="nama_kakak" value="<?= htmlspecialchars($nama_kakak); ?>" required>
