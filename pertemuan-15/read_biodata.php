@@ -1,65 +1,40 @@
 <?php
-  session_start();
-  require 'koneksi.php';
-  require 'fungsi.php';
+require 'koneksi.php';
+require_once 'fungsi.php';
 
-  $sql = "SELECT * FROM tbl_biodata_mahasiswa_sederhana ORDER BY cid DESC";
-  $q = mysqli_query($conn, $sql);
-  if (!$q) {
-    die("Query error: " . mysqli_error($conn));
-  }
+$fieldCondig = [
+    "nim" => ["label" => "NIM:", "suffix" => ""],
+    "nama" => ["label" => "Nama Lengkap:", "suffix" => " &#128526;"],
+    "tempat" => ["label" => "Tempat Lahir:", "suffix" => ""],
+    "tanggal" => ["label" => "Tanggal Lahir:", "suffix" => ""],
+    "hobi" => ["label" => "Hobi:", "suffix" => " &#127926;"],
+    "pasangan" => ["label" => "Pasangan:", "suffix" => " &hearts;"],
+    "pekerjaan" => ["label" => "Pekerjaan:", "suffix" => " &copy; 2025"],
+    "ortu" => ["label" => "Nama Orang Tua:", "suffix" => ""],
+    "kakak" => ["label" => "Nama Kakak:", "suffix" => ""],
+    "adik" => ["label" => "Nama Adik:", "suffix" => ""],
+];
+$sql = "SELECT * FROM tbl_biodata_mahasiswa_sederhana ORDER BY id DESC";
+$q = mysqli_query($conn, $sql);
+if (!$q) {
+    echo "<p>Gagal membaca data mahasiswa: " . htmlspecialchars(mysqli_error($conn)) . "</p>";
+} elseif (mysqli_num_rows($q) === 0) {
+    echo "<p>Belum ada data mahasiswa yang tersimpan.</p>";
+} else {
+    while ($row = mysqli_fetch_assoc($q)) {
+        $arrBiodata = [
+        "nim"       => $row["cnim"],
+        "nama"      => $row["cnama_lengkap"],
+        "tempat"    => $row["ctempat_lahir"],
+        "tanggal"   => $row["ctanggal_lahir"],
+        "hobi"      => $row["chobi"],
+        "pasangan"  => $row["cpasangan"],
+        "pekerjaan" => $row["cpekerjaan"],
+        "ortu"      => $row["cnamaortu"],
+        "kakak"     => $row["cnama_kakak"],
+        "adik"      => $row["cnama_adik"],
+        ];
+        echo tampilkanBiodata($fieldConfig, $arrBiodata);
+    }
+}
 ?>
-
-<?php
-  $flash_sukses = $_SESSION['flash_sukses'] ?? ''; #jika query sukses
-  $flash_error  = $_SESSION['flash_error'] ?? ''; #jika ada error
-  #bersihkan session ini
-  unset($_SESSION['flash_sukses'], $_SESSION['flash_error']); 
-?>
-
-<?php if (!empty($flash_sukses)): ?>
-        <div style="padding:10px; margin-bottom:10px; 
-          background:#d4edda; color:#155724; border-radius:6px;">
-          <?= $flash_sukses; ?>
-        </div>
-<?php endif; ?>
-
-<?php if (!empty($flash_error)): ?>
-        <div style="padding:10px; margin-bottom:10px; 
-          background:#f8d7da; color:#721c24; border-radius:6px;">
-          <?= $flash_error; ?>
-        </div>
-<?php endif; ?>
-
-<table border="1" cellpadding="8" cellspacing="0">
-  <tr>
-    <th>No</th>
-    <th>Aksi</th>
-    <th>ID</th>
-    <th>Nama</th>
-    <th>Email</th>
-    <th>Pesan</th>
-    <th>Created At</th>
-  </tr>
-  <?php $i = 1; ?>
-  <?php while ($row = mysqli_fetch_assoc($q)): ?>
-    <tr>
-      <td><?= $i++ ?></td>
-      <td>
-        <a href="edit_biodata.php?cid=<?= (int)$row['cid']; ?>">Edit</a>
-      </td>
-      <td><?= $row['cid']; ?></td>
-      <td><?= htmlspecialchars($row['cnim']); ?></td>
-      <td><?= htmlspecialchars($row['cnama_lengkap']); ?></td>
-      <td><?= htmlspecialchars($row['ctempat_lahir']); ?></td>
-      <td><?= htmlspecialchars($row['ctanggal_lahir']); ?></td>
-      <td><?= htmlspecialchars($row['chobi']); ?></td>
-      <td><?= htmlspecialchars($row['cpasangan']); ?></td>
-      <td><?= htmlspecialchars($row['cpekerjaan']); ?></td>
-      <td><?= htmlspecialchars($row['cnamaorangtua']); ?></td>
-      <td><?= htmlspecialchars($row['cnama_kakak']); ?></td>
-      <td><?= htmlspecialchars($row['cnama_adik']); ?></td>
-      
-    </tr>
-  <?php endwhile; ?>
-</table>
