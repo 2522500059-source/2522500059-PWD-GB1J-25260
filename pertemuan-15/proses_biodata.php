@@ -6,7 +6,7 @@ require_once __DIR__ . '/fungsi.php';
 #cek method form, hanya izinkan POST
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
   $_SESSION['flash_error'] = 'Akses tidak valid.';
-  redirect_ke('index.php#contact');
+  redirect_ke('index.php#biodata');
 }
 
 #ambil dan bersihkan nilai dari form
@@ -67,8 +67,9 @@ if ($adik === '') {
 
 
 
-
-
+if (mb_strlen($nim) < 5) {
+  $errors[] = 'Nim minimal 5 karakter.';
+}
 
 if (mb_strlen($nama) < 3) {
   $errors[] = 'Nama minimal 3 karakter.';
@@ -135,3 +136,4 @@ if (mysqli_stmt_execute($stmt)) { #jika berhasil, kosongkan old value, beri pesa
 mysqli_stmt_close($stmt);
 
  redirect_ke('index.php#biodata');
+ exit();
