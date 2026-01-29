@@ -20,7 +20,7 @@ function formatTanggal($tgl)
   return date("d M Y H:i:s", strtotime($tgl));
 }
 
-function tampilkanBiodata($conf, $arr)
+function tampilkanData($conf, $arr)
 {
   $html = "";
   foreach ($conf as $k => $v) {

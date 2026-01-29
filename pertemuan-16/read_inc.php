@@ -7,7 +7,7 @@ $fieldContact = [
   "pesan" => ["label" => "Pesan Anda:", "suffix" => ""]
 ];
 
-$sql = "SELECT * FROM tbl_biodata_pengunjung ORDER BY cid DESC";
+$sql = "SELECT * FROM tbl_tamu ORDER BY cid DESC";
 $q = mysqli_query($conn, $sql);
 if (!$q) {
   echo "<p>Gagal membaca data tamu: " . htmlspecialchars(mysqli_error($conn)) . "</p>";
@@ -20,7 +20,7 @@ if (!$q) {
       "email" => $row["cemail"] ?? "",
       "pesan" => $row["cpesan"] ?? "",
     ];
-    echo tampilkanBiodata($fieldContact, $arrContact);
+    echo tampilkanData($fieldContact, $arrContact);
   }
 }
 ?>
