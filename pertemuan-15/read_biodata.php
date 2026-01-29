@@ -2,7 +2,7 @@
 require 'koneksi.php';
 require_once 'fungsi.php';
 
-$fieldCondig = [
+$fieldConfig = [
     "nim" => ["label" => "NIM:", "suffix" => ""],
     "nama" => ["label" => "Nama Lengkap:", "suffix" => " &#128526;"],
     "tempat" => ["label" => "Tempat Lahir:", "suffix" => ""],

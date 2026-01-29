@@ -14,7 +14,7 @@ $nim  = bersihkan($_POST['txtNim']  ?? '');
 $nama = bersihkan($_POST['txtNmLengkap'] ?? '');
 $tempat = bersihkan($_POST['txtT4Lhr'] ?? '');
 $tanggal = bersihkan($_POST['txtTglLhr'] ?? '');
-$hobi = bersihkan($_POST['"txtHobi'] ?? '');
+$hobi = bersihkan($_POST['txtHobi'] ?? '');
 $pasangan = bersihkan($_POST['txtPasangan'] ?? '');
 $pekerjaan = bersihkan($_POST['txtKerja'] ?? '');
 $ortu = bersihkan($_POST['txtNmOrtu'] ?? '');
@@ -136,4 +136,4 @@ if (mysqli_stmt_execute($stmt)) { #jika berhasil, kosongkan old value, beri pesa
 mysqli_stmt_close($stmt);
 
  redirect_ke('index.php#biodata');
- exit();
+ 
