@@ -13,4 +13,5 @@ Hari ini tanggal 11/01/2026 , saya mempelajari <br>
 <li>menambah file baru yang bernama proses update anggota dan menambah kode</li>
 <li>menambah file baru yang bernama proses read anggota inc dan menambah kode</li>
 <li>menambah kode di edit.php</li>
+<li>mengextrak localhost phpmyadmin</li>
 </ol>
