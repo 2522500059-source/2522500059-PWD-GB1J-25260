@@ -8,5 +8,6 @@ Hari ini tanggal 11/01/2026 , saya mempelajari <br>
 <ol>
 <li>mengunduh bahan UAS PWD dan ekstrak pertemuan-16</li>
 <li>membuat create table data anggota di phpmyadmin</li>
+<li>membuat file baru yang bernama read_anggota.php dan menambah kode</li>
 <li>
 </ol>
